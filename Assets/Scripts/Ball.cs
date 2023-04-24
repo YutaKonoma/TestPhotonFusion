@@ -1,4 +1,6 @@
 using Fusion;
+using System.Numerics;
+using UnityEngine;
 
 public class Ball : NetworkBehaviour
 {
@@ -6,7 +8,7 @@ public class Ball : NetworkBehaviour
 
     public void Init()
     {
-        Life = TickTimer.CreateFromSeconds(Runner, 5.0f);
+        Life = TickTimer.CreateFromSeconds(Runner, 2.0f);
     }
 
     public override void FixedUpdateNetwork()
