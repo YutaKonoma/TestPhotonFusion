@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1333858424799889959}
   - component: {fileID: 1333858424799889956}
   - component: {fileID: 4718086565036143478}
+  - component: {fileID: 3860960861043601242}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -130,6 +131,21 @@ MonoBehaviour:
   _interpolationDataSource: 0
   _prefabBall: {fileID: -7738177371631545526, guid: 8581512e6e30f284fb607400ff9776f8, type: 3}
   _prefabPhysxBall: {fileID: 4266504368437397924, guid: cb339c50dfc1da94baefc4052544c05f, type: 3}
+  _Spawned:
+    _value: 0
+--- !u!65 &3860960861043601242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333858424799889957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1333858426043636061
 GameObject:
   m_ObjectHideFlags: 0
